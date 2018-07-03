@@ -133,30 +133,6 @@ for raster in rasters:
     t450 = wd + str(raster) + 'shdi_450.tif'
     apply_shdi_450(wd+raster, t450)
     print(raster, 'completed')
-
-t1150 = wd+'tile1_150.tif'
-t1300 = wd+'tile1_300.tif'
-t1450 = wd+'tile1_450.tif'
-apply_shdi_150(tile1, t1150)
-apply_shdi_300(tile1, t1300)
-apply_shdi_450(tile1, t1450)
-print("tile 1 completed")
-
-t2150 = wd+'tile2_150.tif'
-t2300 = wd+'tile2_300.tif'
-t2450 = wd+'tile2_450.tif'
-apply_shdi_150(tile2, t2150)
-apply_shdi_300(tile2, t2300)
-apply_shdi_450(tile2, t2450)
-print("tile 2 completed")
-
-t3150 = wd+'tile3_150.tif'
-t3300 = wd+'tile3_300.tif'
-t3450 = wd+'tile3_450.tif'
-apply_shdi_150(tile3, t3150)
-apply_shdi_300(tile3, t3300)
-apply_shdi_450(tile3, t3450)
-print("tile 3 completed")
 '''
 # end time count
 print("")
